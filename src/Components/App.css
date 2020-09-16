@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.text{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+margin:20px;
+padding: 20px;
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width:30%;
+}
+
+.disp {
+  border: solid 2px black;
+  margin-top: 8px;
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  height: 560px;
+  width: 100%;
+  background-color: rgb(187, 183, 183);
+}
+
+.but {
+  border: solid 1px black;
+  cursor: pointer;
+}
+
